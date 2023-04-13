@@ -53,7 +53,7 @@ def documents(
     template = DocxTemplate(f"templates/{device.latin_name}.docx")
     template.render(context)
     return template.save(
-        f'{device.name}_{device_number}'
+        f'{device.name.replace("/", "-")}_{device_number}'
         f'{datetime.strftime(now, "%d_%m_%Y")}.docx'
     )
 

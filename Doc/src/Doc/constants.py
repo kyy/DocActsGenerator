@@ -132,8 +132,8 @@ device = {
     'BSD61': Block(
         tu='BY 690376244.005-2019',
         iclg='__________________',
-        name='БСД-6-1',
-        fullname='Блок сбора данных БСД-6-1',
+        name='БСД-6/1',
+        fullname='Блок сбора данных БСД-6/1',
         latin_name='BSD61',
         test_devices=f"{meter['Э515'].name} ({meter['Э515'].data}.)",
         measure_devices=f"{meter['М1102/1'].name} ({meter['М1102/1'].data}.)\n"
